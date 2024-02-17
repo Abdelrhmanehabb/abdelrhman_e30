@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(18, 18, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.content{
+    height: 60%;
+    width: 70%;
+    display: flex;
+}
+
+
+.left_section{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background-color: rgb(42, 28, 70);
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left_section .text{
+    justify-content: flex-start;
+}
+
+.left_section p{
+    font-size: 18px;
+}
+
+.left_section h2{
+    font-size: 40px;
+}
+
+
+.left_section span{
+    color: rgb(127, 28, 184);
+    font-size: 40px;
+}
+
+.left_section .bottom_section{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.left_section .bottom_section h2{
+    margin: 0px;
+}
+.bottom_section .comp h2{
+    font-size: 35px;
+}
+
+.bottom_section .temp h2{
+    font-size: 35px;
+}
+
+.bottom_section .que h2{
+    font-size: 35px;
+}
+
+
+
+.right_section{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right_section .right_background{
+    background-color: blueviolet;
+}
